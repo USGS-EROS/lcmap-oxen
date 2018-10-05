@@ -5,17 +5,17 @@ Tooling for creating the auxiliary datasets needed in LCMAP
 
 A full GDAL installation is required.  GDAL can be compiled and installed by conda.
 
-#####Other requirements:
+**Other requirements:**
 
 python >= 3.6
 
-Run the script from the command line:
+**Run the script from the command line:**
 
-`
+```bash
 $python clip_nlcd.py -i /path/to/conus-nlcd-raster -o /path/to/output-directory/ --acquired YYYYMMDD --prod NLCD *or* NLCD_TRAINING
-`
+```
 
-#####CLI parameters:
+**CLI parameters:**
 
 * -i, The full path to a CONUS NLCD raster file.
 * -o, The full path to an output directory, will be created if it does not exist.
